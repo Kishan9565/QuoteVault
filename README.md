@@ -61,4 +61,79 @@ The project is built using **Kotlin**, follows the **MVVM architecture**, and us
 ## 🧩 Architecture Overview
 
 The application follows the **MVVM (Model–View–ViewModel)** pattern to ensure scalability and maintainability.
+View (Activity / Fragment)
+↓
+ViewModel (StateFlow)
+↓
+Repository
+↓
+Supabase (Auth + Database)
+This separation improves scalability, testability, and maintainability.
 
+---
+
+## 📂 Project Structure
+
+com.example.quotevault
+│
+├── data
+│ ├── model
+│ └── repository
+│
+├── ui
+│ ├── home
+│ ├── favourite
+│ └── profile
+│
+├── viewmodel
+│
+└── utils
+
+
+---
+
+## 📸 Screenshots
+
+All application screenshots are available in the `screenshots/` directory and include:
+
+---
+
+## 🎥 Demo Video
+
+**Loom Demo Video:**  
+👉 * *
+
+The video demonstrates:
+- Application overview
+- Navigation flow
+- Favourite functionality
+- Profile and logout
+- Backend integration
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio
+- Supabase account
+
+### Installation
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/<your-username>/QuoteVault-Android.git
+   
+2. Open the project in Android Studio
+3. Add Supabase credentials:
+4. Supabase URL
+5. Supabase Anon Key
+6. Sync Gradle files
+7. Run the application on an emulator or physical device
+
+###🧠 Key Learnings
+Real-world implementation of MVVM architecture
+Supabase authentication and database integration
+State management using Kotlin Flow
+Secure handling of user-specific data
+Building scalable and maintainable Android applications
