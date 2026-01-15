@@ -131,7 +131,8 @@ The video demonstrates:
 6. Sync Gradle files
 7. Run the application on an emulator or physical device
 
-###🧠 Key Learnings
+## 🧠 Key Learnings
+
 Real-world implementation of MVVM architecture
 Supabase authentication and database integration
 State management using Kotlin Flow
