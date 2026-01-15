@@ -95,6 +95,7 @@ com.example.quotevault
 ## 📸 Screenshots
 
 All application screenshots are available in the `screenshots/` directory and include:
+<img width="1920" height="1080" alt="Chemical Reactions and Energy Changes Education Presentation in Blue White Flat Cartoon Style" src="https://github.com/user-attachments/assets/511b55aa-1010-434e-af7c-d9a030a6fa79" />
 
 ---
 
