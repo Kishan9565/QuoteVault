@@ -102,7 +102,7 @@ All application screenshots are available in the `screenshots/` directory and in
 ## 🎥 Demo Video
 
 **Loom Demo Video:**  
-👉 * *
+👉 *https://drive.google.com/file/d/1N1bipdhMDaGxS_UCfvAdwa9Vb_c2RhNT/view?usp=drive_link*
 
 The video demonstrates:
 - Application overview
