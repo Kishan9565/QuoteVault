@@ -1,109 +1,64 @@
-📱 QuoteVault – Android Application
-📌 Overview
+# 📱 QuoteVault – Android Application
 
-QuoteVault is a modern Android application developed as part of a Mobile Application Developer Assignment.
-The app allows users to explore inspirational quotes across multiple categories, mark their favourite quotes, and manage their profile.
-It is built using Kotlin, MVVM architecture, and Supabase as the backend.
+QuoteVault is a modern Android application developed as part of a Mobile Application Developer assignment.  
+The application allows users to explore inspirational quotes across different categories, mark their favourite quotes, and manage their profile using secure authentication.
 
-The project focuses on clean architecture, real-time backend integration, and a smooth user experience.
+The project is built using **Kotlin**, follows the **MVVM architecture**, and uses **Supabase** as the backend for authentication and data storage.
 
-🎯 Assignment Objectives Covered
+---
 
-This project fulfills the following assignment requirements:
+## 🎯 Project Objectives
 
-User Authentication (Login / Logout)
+- Implement secure user authentication (Login / Logout)
+- Fetch and display data from a backend service
+- Enable category-wise filtering of quotes
+- Allow users to save and manage favourite quotes
+- Display user-related information in the profile section
+- Follow clean architecture and Material Design principles
 
-Fetching and displaying data from a backend
+---
 
-Category-wise content filtering
+## 🛠 Tech Stack
 
-Favourite functionality with persistent storage
+- **Language:** Kotlin  
+- **Architecture:** MVVM (Model–View–ViewModel)  
+- **UI:** XML, Material Components  
+- **Backend:** Supabase  
+  - Authentication  
+  - PostgreSQL Database  
+- **Async Handling:** Kotlin Coroutines, Flow  
+- **Serialization:** Kotlinx Serialization  
 
-Profile screen with user-related information
+---
 
-Clean UI with Material Design principles
+## ✨ Features
 
-Proper GitHub repository with documentation
+### 🔐 Authentication
+- Secure login using Supabase Authentication
+- Session-based login persistence
+- Logout functionality from the profile screen
 
-Demo video explaining the app flow
+### 🏠 Home Screen
+- Quote of the Day
+- Horizontal category list
+- Category-wise quote filtering
+- Clean and responsive user interface
 
-🛠 Tech Stack
+### ❤️ Favourite Quotes
+- Add or remove quotes from favourites
+- User-specific persistent storage
+- Dedicated favourites screen
+- Real-time updates using ViewModel and Flow
 
-Language: Kotlin
+### 👤 Profile Screen
+- Displays logged-in user email
+- Shows total number of favourite quotes
+- Logout functionality
+- Scalable structure for future enhancements
 
-Architecture: MVVM (Model–View–ViewModel)
+---
 
-UI: XML, Material Components
+## 🧩 Architecture Overview
 
-Backend: Supabase
+The application follows the **MVVM (Model–View–ViewModel)** pattern to ensure scalability and maintainability.
 
-Authentication
-
-PostgreSQL Database
-
-Networking & Serialization:
-
-Supabase Kotlin SDK
-
-Kotlinx Serialization
-
-Async Handling: Kotlin Coroutines & Flow
-
-✨ Features
-🔐 Authentication
-
-Secure user login using Supabase Authentication
-
-Session-based login persistence
-
-Logout functionality from Profile screen
-
-🏠 Home Screen
-
-“Quote of the Day” section
-
-Horizontal list of quote categories
-
-Vertical list of quotes
-
-Category-based quote filtering
-
-Clean and responsive UI
-
-❤️ Favourite Quotes
-
-Add or remove quotes from favourites
-
-Favourites stored securely per user
-
-Dedicated Favourite screen
-
-Real-time update using ViewModel & Flow
-
-👤 Profile Screen
-
-Displays logged-in user email
-
-Shows total number of favourite quotes
-
-Logout functionality
-
-Ready structure for future enhancements (theme, profile image, etc.)
-
-🧩 App Architecture (MVVM)
-
-Model:
-Data classes (Quote, Category, Favourite)
-
-View:
-Activities & Fragments (Home, Favourite, Profile)
-
-ViewModel:
-Handles business logic and exposes UI state using StateFlow
-
-Repository:
-Manages Supabase API calls and data operations
-
-This separation ensures better scalability, testability, and maintainability.
-
-📸 Screenshots
