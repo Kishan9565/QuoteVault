@@ -122,7 +122,7 @@ The video demonstrates:
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/<your-username>/QuoteVault-Android.git
+   git clone https://github.com/Kishan9565/QuoteVault.git
    
 2. Open the project in Android Studio
 3. Add Supabase credentials:
